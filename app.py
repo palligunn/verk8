@@ -1,6 +1,7 @@
 import bottle
 from bottle import route, run, error, request, post, response, app, template
 from beaker.middleware import SessionMiddleware
+from sys import argv
 #Bryngeir Ari & Páll Gunnar
 #16.10.17
 # Muna að fara í File->settings->project:verkefni8->project interpreter->og installa beaker
