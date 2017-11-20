@@ -93,6 +93,6 @@ def takk():
     
 
 
-run(host='localhost', port=8080, debug=True, reloader=True, app=app)  # keyrir server
+run(host='0.0.0.0', port=argv[1], debug=True, reloader=True, app=app)  # keyrir server
 
 
